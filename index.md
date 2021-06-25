@@ -11,18 +11,18 @@ My robot is a car that reacts to infared stimuli using an IR sensor
 # Final Milestone
 work in progress 
 
-[![Final Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg}
+[![Final Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg)}
 
 # Second Milestone
 work in progress
 
-[![Third Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg}
+[![Third Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg)}
 
 # Building Chassis
   
 
 My first milestone for this project was just putting all the physical components together.  I built the frame of the car, attached the motors, attached the wheels, attached the batteries, attached the arduino, attached the motor controller and then i wired them all together.  One thing that was challenging was getting the perfboard, which i used to connect the motor controller and the IR sensor to the battery pack, to work correctly.  I didn't realize that i needed to create my own metal rails, I was under the assumption that, like a bread board, the perf board also has built in rails, but i was incorrect.  I have not yet been able to get the motors running-- i have a code but it isn't functional yet.  I have the IR sensor functioning correctly bu, but the mototrs are not moving they're just making a noise. moving forward i must figure out what the problem is that is stopping my motors from working, and once that happensI will be at my second milestone.
-[![First Milestone](https://media.discordapp.net/attachments/853028236509052999/857980473094832159/image0.jpg?width=760&height=1014)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
+[![First Milestone](https://media.discordapp.net/attachments/853028236509052999/857980473094832159/image0.jpg?width=760&height=1014)]}
 
 
 # Circuit Diagram
