@@ -5,8 +5,7 @@ My robot is a car that reacts to infared stimuli using an IR sensor
 |:--:|:--:|:--:|:--:|
 | David H | SAR Highschool | Electrical Engineering | Incoming Senior
 
-![Headstone Image](https://images.app.goo.gl/KtEynSXRqo7nSLR86
-)
+![Headstone Image](https://media.discordapp.net/attachments/853028236509052999/857989928180383753/image0.jpg?width=760&height=1012)
   
 # Final Milestone
 work in progress 
