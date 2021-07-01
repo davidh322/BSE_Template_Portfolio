@@ -12,10 +12,10 @@ work in progress
 
 [![Final Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg)}
 
-# Second Milestone
-work in progress
+# Obstacle Avoidance
 
-[![Third Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg)}
+My second milestone for this project was using the IR sensor to run obstacle avoidance.  My robot uses the IR sensor to determine wether there is an object in the way of my robot.  The IR(infared) sensor sends infared signals out of a terminal which bounce off of anything in its way.  These signals our received by another terminal- telling the sensor wether anything is in its way or not.  If anything comes within 1 centimeter of the sensor the car turns around.  In the code for my robot(as seen below) I do this by using an 'If-statement'. Typically, when there is nothing in the way, all 4 motors go forward, but when the sensor has a reading of less than 1 two motors go forward and two motors go backwards- turning the car around.  The wiring and coding for this project was quite challenging, I had to re-do the wiring multiple times, at one point I even re-did the entire wiring.  I put the wiring together myself without following instruction so I had to work backwards to create the correct code.  There were so many small parts that just a small problem, like the mototr controller being grounded to the battery pack rather than the arduino or declaring the wrong pins in the code, was enough to stop the entire circuit from working.  All this troubleshooting really taught me a lesson about engineering.  Engineering is a cycle- you cant just build something in one run and have it be finifshed.  Great work requires revision, not only in robotics but throughout The problem solving sector.  Moving forward I want to explore more functions of the IR sensor.  I will probably try to have my robot follow lines or work with a remote controll.  I am really having a great time working on this project and i relly want to take it very far.
+s://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg)}
 
 # Building Chassis
   
