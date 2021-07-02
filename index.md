@@ -6,13 +6,24 @@ My robot is a car that reacts to infared stimuli using an IR sensor
 | David H | SAR Highschool | Electrical Engineering | Incoming Senior
 
 ![Headstone Image](https://media.discordapp.net/attachments/853028236509052999/857990285299417118/image0.jpg?width=760&height=1012)
-  
+
+# Explanation of IR sensor
+[![IR Sensor Explanation](https://res.cloudinary.com/marcomontalbano/image/upload/v1625233787/video_to_markdown/images/youtube--q11FJqHPQo4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/q11FJqHPQo4 "IR Sensor Explanation")
+
 # Final Milestone
 work in progress 
 
 [![Final Milestone](https://www.maillie.com/sites/default/files/02_02_18_508408464_aab_560x292.jpg)}
 
+# Potential Additions
+1. I want to add mecanum wheels so that my robot can move more freely
+[![First Milestone](https://cdn.discordapp.com/attachments/853028236509052999/860516448161628190/image0.jpg)]}
+2. I want to check out different functions of the IR sensor that i can use for my robot
+3. i want to find a way to make the componenets more organized and to create a body that covers it
+4. Remote control
+
 # Obstacle Avoidance
+Last year I made an object avoiding robot with an ultrasonic sensor however my robot was not that good so i decided to start with obstacle avoidance for my IR sensor because its familiar to me and i wanted to conquer it.
 
 My second milestone for this project was using the IR sensor to run obstacle avoidance.  My robot uses the IR sensor to determine wether there is an object in the way of my robot.  The IR(infared) sensor sends infared signals out of a terminal which bounce off of anything in its way.  These signals our received by another terminal- telling the sensor wether anything is in its way or not.  If anything comes within 1 centimeter of the sensor the car turns around.  In the code for my robot(as seen below) I do this by using an 'If-statement'. Typically, when there is nothing in the way, all 4 motors go forward, but when the sensor has a reading of less than 1 two motors go forward and two motors go backwards- turning the car around.  The wiring and coding for this project was quite challenging, I had to re-do the wiring multiple times, at one point I even re-did the entire wiring.  I put the wiring together myself without following instruction so I had to work backwards to create the correct code.  There were so many small parts that just a small problem, like the mototr controller being grounded to the battery pack rather than the arduino or declaring the wrong pins in the code, was enough to stop the entire circuit from working.  All this troubleshooting really taught me a lesson about engineering.  Engineering is a cycle- you cant just build something in one run and have it be finifshed.  Great work requires revision, not only in robotics but throughout The problem solving sector.  Moving forward I want to explore more functions of the IR sensor.  I will probably try to have my robot follow lines or work with a remote controll.  I am really having a great time working on this project and i relly want to take it very far.
 [![milestone #2](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232410/video_to_markdown/images/youtube--yfa9DlzGAm0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/yfa9DlzGAm0 "milestone #2")
@@ -23,7 +34,6 @@ My second milestone for this project was using the IR sensor to run obstacle avo
 My first milestone for this project was just putting all the physical components together.  I built the frame of the car, attached the motors, attached the wheels, attached the batteries, attached the arduino, attached the motor controller and then i wired them all together.  One thing that was challenging was getting the perfboard, which i used to connect the motor controller and the IR sensor to the battery pack, to work correctly.  I didn't realize that i needed to create my own metal rails, I was under the assumption that, like a bread board, the perf board also has built in rails, but i was incorrect.  I have not yet been able to get the motors running-- i have a code but it isn't functional yet.  I have the IR sensor functioning correctly bu, but the mototrs are not moving they're just making a noise. moving forward i must figure out what the problem is that is stopping my motors from working, and once that happensI will be at my second milestone.
 [![milestone #1](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232694/video_to_markdown/images/youtube--wg4PHka5zfo-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/wg4PHka5zfo "milestone #1")
 [![First Milestone](https://media.discordapp.net/attachments/853028236509052999/857980473094832159/image0.jpg?width=760&height=1014)]}
-
 
 # Circuit Diagram
 
