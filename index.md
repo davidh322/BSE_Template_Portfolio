@@ -30,7 +30,7 @@ My second milestone for this project was using the IR sensor to run obstacle avo
 
 # Regression of Obstacle Avoidance:
 5. Everything working- runs smoothly, turns enough, delay works, is able to run over wire, and is able to avoid walls multiple times
-[![last](![image](https://im2.ezgif.com/tmp/ezgif-2-f866d16e0d13.gif)
+![last](https://im2.ezgif.com/tmp/ezgif-2-f866d16e0d13.gif)
 
 4. Robot avoids obstacles but isnt working well enough yet
 [![last](![image](https://im2.ezgif.com/tmp/ezgif-2-3a1a6f5a0807.gif)
@@ -41,8 +41,8 @@ My second milestone for this project was using the IR sensor to run obstacle avo
 2. I get the robot and motors to turn on and make a noise
 [![last](![image](https://im2.ezgif.com/tmp/ezgif-2-9369557ff8ae.gif)
 
-1. i have the system working somewhat on seperate componenets in order to test the code
-[![last](![image]()
+1. I have the system working somewhat on seperate componenets in order to test the code
+[![last](![image](https://im2.ezgif.com/tmp/ezgif-2-f69d2a8f0b8e.gif)
 # Building Chassis
   
 
