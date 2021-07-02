@@ -28,6 +28,21 @@ Last year I made an object avoiding robot with an ultrasonic sensor however my r
 My second milestone for this project was using the IR sensor to run obstacle avoidance.  My robot uses the IR sensor to determine wether there is an object in the way of my robot.  The IR(infared) sensor sends infared signals out of a terminal which bounce off of anything in its way.  These signals our received by another terminal- telling the sensor wether anything is in its way or not.  If anything comes within 1 centimeter of the sensor the car turns around.  In the code for my robot(as seen below) I do this by using an 'If-statement'. Typically, when there is nothing in the way, all 4 motors go forward, but when the sensor has a reading of less than 1 two motors go forward and two motors go backwards- turning the car around.  The wiring and coding for this project was quite challenging, I had to re-do the wiring multiple times, at one point I even re-did the entire wiring.  I put the wiring together myself without following instruction so I had to work backwards to create the correct code.  There were so many small parts that just a small problem, like the mototr controller being grounded to the battery pack rather than the arduino or declaring the wrong pins in the code, was enough to stop the entire circuit from working.  All this troubleshooting really taught me a lesson about engineering.  Engineering is a cycle- you cant just build something in one run and have it be finifshed.  Great work requires revision, not only in robotics but throughout The problem solving sector.  Moving forward I want to explore more functions of the IR sensor.  I will probably try to have my robot follow lines or work with a remote controll.  I am really having a great time working on this project and i relly want to take it very far.
 [![milestone #2](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232410/video_to_markdown/images/youtube--yfa9DlzGAm0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/yfa9DlzGAm0 "milestone #2")
 
+# Regression of Obstacle Avoidance:
+5. Everything working- runs smoothly, turns enough, delay works, is able to run over wire, and is able to avoid walls multiple times
+[![last](![image](https://im2.ezgif.com/tmp/ezgif-2-f866d16e0d13.gif)
+
+4. Robot avoids obstacles but isnt working well enough yet
+[![last](![image](https://im2.ezgif.com/tmp/ezgif-2-3a1a6f5a0807.gif)
+
+3. after a lot of trouble shooting i finally get the robot to work but it still only runs back and forth
+[![last](![image](https://im2.ezgif.com/tmp/ezgif-2-25792d17fb60.gif)
+
+2. I get the robot and motors to turn on and make a noise
+[![last](![image](https://im2.ezgif.com/tmp/ezgif-2-9369557ff8ae.gif)
+
+1. i have the system working somewhat on seperate componenets in order to test the code
+[![last](![image]()
 # Building Chassis
   
 
