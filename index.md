@@ -7,8 +7,22 @@ My robot is a car that reacts to infared stimuli using an IR sensor
 
 ![Headstone Image](https://media.discordapp.net/attachments/853028236509052999/857990285299417118/image0.jpg?width=760&height=1012)
 
-# Explanation of IR sensor
-[![IR Sensor Explanation](https://res.cloudinary.com/marcomontalbano/image/upload/v1625233787/video_to_markdown/images/youtube--q11FJqHPQo4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/q11FJqHPQo4 "IR Sensor Explanation")
+# Milestone #4
+For the fourth milestone I switched the car from arduino to esp32 and I created an app to control the direction of the car, control the aim of the laser, and shoot the laser.  This step was big as i had no prior experience with esp32 or with RC.  The way I did this was by using a website called MIT app inventor to make a customized app.  this app has 4 buttons for direction, one button to shoot the laser, and a joystick to aim the servos of the laser turret.  Each of the five buttons send a different number when pressed.  The ESP32 reads these numbers using if statements in my code.  Depending on which button is pressed the motors will be run in different formations.  for for- every motor goes forward, for back- every motor moves back, for right- the left motors move forward and the right motors move back, and for left- the right motors move forward and the left motors move back.  For the joystick when the user moves the joystick the coordinates of the place its moved to are read and then mapped to fit degrees which than tells the servos to move in order to aim the laser correctly.  When the user wants to shoot the laser all they do is hit fire which sends a 1 to the esp32 telling it to shoot the laser.  I now have a car that functionally can be controlled and shot at a target.  One problem that i dealt with is that i originally used a joystick for the directions but the values were too confusing and messy so i used direct buttons instead.  moving orward i want the buttons to work more consistently and i want to be more exact with my controls
+
+[![Milestone #4](https://res.cloudinary.com/marcomontalbano/image/upload/v1626447758/video_to_markdown/images/youtube--qc_6O92dDOM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/qc_6O92dDOM "Milestone #4")
+
+# Milestone #3
+To get the second part of my project started I got the laser and the target to work together.  Before i built the car and everything i wanted to make sure that the laser and LDR both work.  I wired and coded the laser to shoot every second and i coded the LDR to recognize when it is hit by the laser.  I used analog write to have the laser turn on and off.  For the LDR I made code that turns on an LED when the readings of the LDR reached a certain level. One problem that i had to deal with was that the values of the LDR would sometimes be inconsistent and they would be different for different rooms. I solved this by just changing the level that set off the LED.
+[![Milestone #3](https://res.cloudinary.com/marcomontalbano/image/upload/v1626446512/video_to_markdown/images/youtube--Jmryic6Yx3U-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/Jmryic6Yx3U "Milestone #3")
+
+# Circuit Diagram #2
+
+
+# Session #2: RC Laser Car
+Once I decided to stay a second session my project took a new route.  I decided to leave autonomous robotics to learn more about remote control.  I devised a plan to create a robot controlled by an app on an android phone that allows the user to drive around and aim and shoot a laser at a target.  
+
+
 
 # Final Milestone
 work in progress 
@@ -25,6 +39,10 @@ work in progress
 # Obstacle Avoidance
 Last year I made an object avoiding robot with an ultrasonic sensor however my robot was not that good so i decided to start with obstacle avoidance for my IR sensor because its familiar to me and i wanted to conquer it.
 
+# Explanation of IR sensor
+[![IR Sensor Explanation](https://res.cloudinary.com/marcomontalbano/image/upload/v1625233787/video_to_markdown/images/youtube--q11FJqHPQo4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/q11FJqHPQo4 "IR Sensor Explanation")
+
+# Second Milestone
 My second milestone for this project was using the IR sensor to run obstacle avoidance.  My robot uses the IR sensor to determine wether there is an object in the way of my robot.  The IR(infared) sensor sends infared signals out of a terminal which bounce off of anything in its way.  These signals our received by another terminal- telling the sensor wether anything is in its way or not.  If anything comes within 1 centimeter of the sensor the car turns around.  In the code for my robot(as seen below) I do this by using an 'If-statement'. Typically, when there is nothing in the way, all 4 motors go forward, but when the sensor has a reading of less than 1 two motors go forward and two motors go backwards- turning the car around.  The wiring and coding for this project was quite challenging, I had to re-do the wiring multiple times, at one point I even re-did the entire wiring.  I put the wiring together myself without following instruction so I had to work backwards to create the correct code.  There were so many small parts that just a small problem, like the mototr controller being grounded to the battery pack rather than the arduino or declaring the wrong pins in the code, was enough to stop the entire circuit from working.  All this troubleshooting really taught me a lesson about engineering.  Engineering is a cycle- you cant just build something in one run and have it be finifshed.  Great work requires revision, not only in robotics but throughout The problem solving sector.  Moving forward I want to explore more functions of the IR sensor.  I will probably try to have my robot follow lines or work with a remote controll.  I am really having a great time working on this project and i relly want to take it very far.
 [![milestone #2](https://res.cloudinary.com/marcomontalbano/image/upload/v1625232410/video_to_markdown/images/youtube--yfa9DlzGAm0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/yfa9DlzGAm0 "milestone #2")
 
