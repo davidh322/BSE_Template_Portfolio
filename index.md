@@ -1,11 +1,20 @@
-﻿# IR Robot
+﻿# IR Robot/Laser Car
+# IR robot:
 My robot is a car that reacts to infared stimuli using an IR sensor
+
+# Laser Car:
+car that is RC using app that shoots lasers at target
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | David H | SAR Highschool | Electrical Engineering | Incoming Senior
 
 ![Headstone Image](https://media.discordapp.net/attachments/853028236509052999/857990285299417118/image0.jpg?width=760&height=1012)
+
+# Session #2: RC Laser Car
+Once I decided to stay a second session my project took a new route.  I decided to leave autonomous robotics to learn more about remote control.  I devised a plan to create a robot controlled by an app on an android phone that allows the user to drive around and aim and shoot a laser at a target.  
+
+
 
 # Milestone #4
 For the fourth milestone I switched the car from arduino to esp32 and I created an app to control the direction of the car, control the aim of the laser, and shoot the laser.  This step was big as i had no prior experience with esp32 or with RC.  The way I did this was by using a website called MIT app inventor to make a customized app.  this app has 4 buttons for direction, one button to shoot the laser, and a joystick to aim the servos of the laser turret.  Each of the five buttons send a different number when pressed.  The ESP32 reads these numbers using if statements in my code.  Depending on which button is pressed the motors will be run in different formations.  for for- every motor goes forward, for back- every motor moves back, for right- the left motors move forward and the right motors move back, and for left- the right motors move forward and the left motors move back.  For the joystick when the user moves the joystick the coordinates of the place its moved to are read and then mapped to fit degrees which than tells the servos to move in order to aim the laser correctly.  When the user wants to shoot the laser all they do is hit fire which sends a 1 to the esp32 telling it to shoot the laser.  I now have a car that functionally can be controlled and shot at a target.  One problem that i dealt with is that i originally used a joystick for the directions but the values were too confusing and messy so i used direct buttons instead.  moving orward i want the buttons to work more consistently and i want to be more exact with my controls
@@ -228,9 +237,6 @@ To get the second part of my project started I got the laser and the target to w
 <font color="#000000">}</font>
 
 </pre>
-
-# Session #2: RC Laser Car
-Once I decided to stay a second session my project took a new route.  I decided to leave autonomous robotics to learn more about remote control.  I devised a plan to create a robot controlled by an app on an android phone that allows the user to drive around and aim and shoot a laser at a target.  
 
 
 
