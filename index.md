@@ -14,7 +14,8 @@ car that is RC using app that shoots lasers at target
 # Session #2: RC Laser Car
 Once I decided to stay a second session my project took a new route.  I decided to leave autonomous robotics to learn more about remote control.  I devised a plan to create a robot controlled by an app on an android phone that allows the user to drive around and aim and shoot a laser at a target.  
 
-
+# Final Presentation
+[![Final Presentation](https://res.cloudinary.com/marcomontalbano/image/upload/v1631556605/video_to_markdown/images/youtube--bF_-brSaWYM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/bF_-brSaWYM "Final Presentation")
 
 # Milestone #4
 For the fourth milestone I switched the car from arduino to esp32 and I created an app to control the direction of the car, control the aim of the laser, and shoot the laser.  This step was big as i had no prior experience with esp32 or with RC.  The way I did this was by using a website called MIT app inventor to make a customized app.  this app has 4 buttons for direction, one button to shoot the laser, and a joystick to aim the servos of the laser turret.  Each of the five buttons send a different number when pressed.  The ESP32 reads these numbers using if statements in my code.  Depending on which button is pressed the motors will be run in different formations.  for for- every motor goes forward, for back- every motor moves back, for right- the left motors move forward and the right motors move back, and for left- the right motors move forward and the left motors move back.  For the joystick when the user moves the joystick the coordinates of the place its moved to are read and then mapped to fit degrees which than tells the servos to move in order to aim the laser correctly.  When the user wants to shoot the laser all they do is hit fire which sends a 1 to the esp32 telling it to shoot the laser.  I now have a car that functionally can be controlled and shot at a target.  One problem that i dealt with is that i originally used a joystick for the directions but the values were too confusing and messy so i used direct buttons instead.  moving orward i want the buttons to work more consistently and i want to be more exact with my controls
@@ -264,19 +265,19 @@ My second milestone for this project was using the IR sensor to run obstacle avo
 
 # Regression of Obstacle Avoidance:
 5. Everything working- runs smoothly, turns enough, delay works, is able to run over wire, and is able to avoid walls multiple times
-![5](https://im2.ezgif.com/tmp/ezgif-2-f866d16e0d13.gif)
+
 
 4. Robot avoids obstacles but isnt working well enough yet
-![4](https://im2.ezgif.com/tmp/ezgif-2-3a1a6f5a0807.gif)
+
 
 3. after a lot of trouble shooting i finally get the robot to work but it still only runs back and forth
-![3](https://im2.ezgif.com/tmp/ezgif-2-25792d17fb60.gif)
+
 
 2. I get the robot and motors to turn on and make a noise
-![2](https://im2.ezgif.com/tmp/ezgif-2-9369557ff8ae.gif)
+
 
 1. I have the system working somewhat on seperate componenets in order to test the code
-![1](https://im2.ezgif.com/tmp/ezgif-2-f69d2a8f0b8e.gif)
+
 # Building Chassis
   
 
